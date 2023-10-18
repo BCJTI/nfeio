@@ -1,24 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7c03f6f-b624-4c37-bf52-f6c7c1f6b81b" name="Default Changelist" comment="Implementei upload de certificado usando curl">
-      <change afterPath="$PROJECT_DIR$/item.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statetax.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statetax_test.go" afterDir="false" />
+    <list default="true" id="e7c03f6f-b624-4c37-bf52-f6c7c1f6b81b" name="Default Changelist" comment="Fix: MunicipalTaxNumber changed to String from Number">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/address_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/address_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/client.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/client_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/company.go" beforeDir="false" afterPath="$PROJECT_DIR$/company.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/company_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/company_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/error.go" beforeDir="false" afterPath="$PROJECT_DIR$/error.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/invoice.go" beforeDir="false" afterPath="$PROJECT_DIR$/invoice.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/invoice_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/invoice_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/methods.go" beforeDir="false" afterPath="$PROJECT_DIR$/methods.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/person.go" beforeDir="false" afterPath="$PROJECT_DIR$/person.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util.go" beforeDir="false" afterPath="$PROJECT_DIR$/util.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,90 +20,93 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" path="C:/Go" />
+  <component name="GOROOT" url="file://$USER_HOME$/scoop/apps/go/current" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
   <component name="ProjectId" id="1SyzWse5Rawgh4WBWtzhieiV5LM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="DefaultGoTemplateProperty" value="Go File" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="go.import.settings.migrated" value="true" />
-    <property name="go.sdk.automatically.set" value="true" />
-    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "go.import.settings.migrated": "true",
+    "go.sdk.automatically.set": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/exdca/go/src/github.com/bcjti/nfeio"
+  }
+}]]></component>
   <component name="RunManager" selected="Go Test.TestIssueInvoice in github.com/seriallink/nfeio (2)">
     <configuration name="TestAddStateTax in github.com/seriallink/nfeio" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="nfeio" />
       <working_directory value="$PROJECT_DIR$" />
-      <framework value="gotest" />
       <kind value="PACKAGE" />
       <package value="github.com/seriallink/nfeio" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
+      <framework value="gotest" />
       <pattern value="^TestAddStateTax$" />
       <method v="2" />
     </configuration>
     <configuration name="TestDeleteStateTax in github.com/seriallink/nfeio" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="nfeio" />
       <working_directory value="$PROJECT_DIR$" />
-      <framework value="gotest" />
       <kind value="PACKAGE" />
       <package value="github.com/seriallink/nfeio" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
+      <framework value="gotest" />
       <pattern value="^TestDeleteStateTax$" />
       <method v="2" />
     </configuration>
     <configuration name="TestIssueInvoice in github.com/seriallink/nfeio (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="nfeio" />
       <working_directory value="$PROJECT_DIR$" />
-      <framework value="gotest" />
       <kind value="PACKAGE" />
       <package value="github.com/seriallink/nfeio" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
+      <framework value="gotest" />
       <pattern value="^TestIssueInvoice$" />
       <method v="2" />
     </configuration>
     <configuration name="TestIssueInvoice in github.com/seriallink/nfeio (2)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="nfeio" />
       <working_directory value="$PROJECT_DIR$" />
-      <framework value="gotest" />
       <kind value="PACKAGE" />
       <package value="github.com/seriallink/nfeio" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
+      <framework value="gotest" />
       <pattern value="^TestIssueInvoice$" />
       <method v="2" />
     </configuration>
     <configuration name="TestIssueInvoice in github.com/seriallink/nfeio" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="nfeio" />
       <working_directory value="$PROJECT_DIR$" />
-      <framework value="gotest" />
       <kind value="PACKAGE" />
       <package value="github.com/seriallink/nfeio" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
+      <framework value="gotest" />
       <pattern value="^TestIssueInvoice$" />
       <method v="2" />
     </configuration>
@@ -141,6 +132,7 @@
       </list>
     </option>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="e7c03f6f-b624-4c37-bf52-f6c7c1f6b81b" name="Default Changelist" comment="" />
@@ -160,15 +152,15 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Implementei upload de certificado usando curl" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementei upload de certificado usando curl" />
+    <MESSAGE value="Fix: MunicipalTaxNumber changed to String from Number" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix: MunicipalTaxNumber changed to String from Number" />
   </component>
   <component name="VgoProject">
-    <integration-enabled>true</integration-enabled>
-    <proxy>direct</proxy>
+    <settings-migrated>true</settings-migrated>
   </component>
   <component name="WindowStateProjectService">
     <state x="557" y="-968" key="CommitChangelistDialog2" timestamp="1583861912479">
@@ -236,19 +228,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/company.go</url>
-          <line>28</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/company_test.go</url>
           <line>66</line>
           <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/company.go</url>
-          <line>145</line>
-          <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/company.go</url>
