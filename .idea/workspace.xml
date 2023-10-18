@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7c03f6f-b624-4c37-bf52-f6c7c1f6b81b" name="Default Changelist" comment="IDE workspace" />
+    <list default="true" id="e7c03f6f-b624-4c37-bf52-f6c7c1f6b81b" name="Default Changelist" comment="go mod/sum">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,32 +31,32 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="1SyzWse5Rawgh4WBWtzhieiV5LM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "go.import.settings.migrated": "true",
-    "go.sdk.automatically.set": "true",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/exdca/go/src/github.com/bcjti/nfeio",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/exdca/go/src/github.com/bcjti/nfeio&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Go Test.TestIssueInvoice in github.com/seriallink/nfeio (2)">
     <configuration name="TestAddStateTax in github.com/seriallink/nfeio" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="nfeio" />
@@ -158,72 +162,12 @@
     <MESSAGE value="Fix: MunicipalTaxNumber changed to String from Number" />
     <MESSAGE value="Impl:" />
     <MESSAGE value="IDE workspace" />
-    <option name="LAST_COMMIT_MESSAGE" value="IDE workspace" />
+    <MESSAGE value="go mod" />
+    <MESSAGE value="go mod/sum" />
+    <option name="LAST_COMMIT_MESSAGE" value="go mod/sum" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="557" y="-968" key="CommitChangelistDialog2" timestamp="1583861912479">
-      <screen x="0" y="-1080" width="1920" height="1040" />
-    </state>
-    <state x="557" y="-968" key="CommitChangelistDialog2/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1583861912479" />
-    <state width="999" height="466" key="DebuggerActiveHint" timestamp="1583861461839">
-      <screen x="0" y="-1080" width="1920" height="1040" />
-    </state>
-    <state width="999" height="466" key="DebuggerActiveHint/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1583861461839" />
-    <state width="1877" height="353" key="GridCell.Tab.0.bottom" timestamp="1583861729002">
-      <screen x="0" y="-1080" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="353" key="GridCell.Tab.0.bottom/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1583861729002" />
-    <state width="1877" height="353" key="GridCell.Tab.0.center" timestamp="1583861729002">
-      <screen x="0" y="-1080" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="353" key="GridCell.Tab.0.center/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1583861729002" />
-    <state width="1877" height="353" key="GridCell.Tab.0.left" timestamp="1583861729002">
-      <screen x="0" y="-1080" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="353" key="GridCell.Tab.0.left/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1583861729002" />
-    <state width="1877" height="353" key="GridCell.Tab.0.right" timestamp="1583861729002">
-      <screen x="0" y="-1080" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="353" key="GridCell.Tab.0.right/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1583861729002" />
-    <state width="1877" height="273" key="GridCell.Tab.1.bottom" timestamp="1583861482926">
-      <screen x="0" y="-1080" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="273" key="GridCell.Tab.1.bottom/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1583861482926" />
-    <state width="1877" height="273" key="GridCell.Tab.1.center" timestamp="1583861482926">
-      <screen x="0" y="-1080" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="273" key="GridCell.Tab.1.center/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1583861482926" />
-    <state width="1877" height="273" key="GridCell.Tab.1.left" timestamp="1583861482926">
-      <screen x="0" y="-1080" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="273" key="GridCell.Tab.1.left/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1583861482926" />
-    <state width="1877" height="273" key="GridCell.Tab.1.right" timestamp="1583861482926">
-      <screen x="0" y="-1080" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="273" key="GridCell.Tab.1.right/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1583861482926" />
-    <state x="755" y="-851" key="RollbackChangesDialog" timestamp="1583771783457">
-      <screen x="0" y="-1080" width="1920" height="1040" />
-    </state>
-    <state x="755" y="-851" key="RollbackChangesDialog/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1583771783457" />
-    <state x="552" y="-829" key="Vcs.Push.Dialog.v2" timestamp="1579024881294">
-      <screen x="0" y="-1080" width="1920" height="1040" />
-    </state>
-    <state x="552" y="-829" key="Vcs.Push.Dialog.v2/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1579024881294" />
-    <state width="971" height="531" key="XDebugger.FullValuePopup" timestamp="1583861411499">
-      <screen x="0" y="-1080" width="1920" height="1040" />
-    </state>
-    <state width="971" height="531" key="XDebugger.FullValuePopup/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1583861411499" />
-    <state x="640" y="-826" width="640" height="532" key="find.popup" timestamp="1579626471536">
-      <screen x="0" y="-1080" width="1920" height="1040" />
-    </state>
-    <state x="640" y="-826" width="640" height="532" key="find.popup/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1579626471536" />
-    <state x="623" y="-855" width="672" height="678" key="search.everywhere.popup" timestamp="1583860215633">
-      <screen x="0" y="-1080" width="1920" height="1040" />
-    </state>
-    <state x="623" y="-855" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1583860215633" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
